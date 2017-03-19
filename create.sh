@@ -3,7 +3,7 @@
 
 #rm -f train.txt
 
-base_dir="/home/abhi/cmpe297/datasets/final/GTSRB"
+base_dir="/home/ubuntu/datasets/final/GTSRB"
 out_file="train.txt"
 for f in `find . -name "GT-*.csv"`
 do
