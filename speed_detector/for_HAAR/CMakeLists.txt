@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-project( speedDetector )
-set( OpenCV_DIR "/usr/local/share/OpenCV")
-find_package( OpenCV REQUIRED )
-add_executable( speedDetector speedDetector.cpp)
-target_link_libraries( speedDetector ${OpenCV_LIBS} )
